@@ -1,0 +1,25 @@
+
+{
+  "navigationBarTitleText": "个人出行",
+  "usingComponents": {},
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/personal",
+        "text": "个人出行"
+      },
+      {
+        "pagePath": "pages/team",
+        "text": "团队出行"
+      },
+      {
+        "pagePath": "pages/schedule",
+        "text": "我的行程"
+      },
+      {
+        "pagePath": "pages/profile",
+        "text": "个人主页"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+/* pages/personal/personal.wxss */
+/* index.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%;
+  background-color: #f8f8f8;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.location {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+}
+
+.top-section {
+  flex: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.button {
+  width: 25%;
+  background-color: #7dc5eb;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  display: flex; /* 使用 Flex 布局 */
+  height: 200rpx; /* 设置按钮高度 */
+  margin-bottom: 10rpx; /* 设置按钮底部外边距 */
+  padding: 10rpx; /* 设置按钮内边距 */
+  justify-content: center;  /*垂直居中 */
+  align-items: center; /* 水平居中 */
+  margin-top: 100rpx; /* 设置按钮距离顶部的位置 */
+}
+
+
+.bottom-section {
+  flex: 7;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.spot-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.spot-image {
+  width: 150px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.spot-name {
+  font-size: 16px;
+}
+
+.location-icon {
+  width: 40rpx; /* 修改图标的宽度 */
+  height: 40rpx; /* 修改图标的高度 */
+  margin-right: 5rpx; /* 设置图标右边距 */
+}
+
+.button-icon {
+  width: 40rpx; /* 设置图标宽度 */
+  height: 40rpx; /* 设置图标高度 */
+  margin-bottom: 5rpx; /* 设置图标底部间距 */
+}
+/* pages/personal/personal.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  flex: 1;
+}
+
+.bottom-section {
+  flex: 1;
+}
+

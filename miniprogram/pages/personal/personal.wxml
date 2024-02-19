@@ -1,0 +1,42 @@
+<!-- pages/personal/personal.wxml -->
+
+<view class="container">
+  <!-- 左上角城市定位 -->
+  <view class="location" bindtap="switchCity">
+    <image src="../../asset/location.png" class="location-icon"></image>
+    <text>{{currentCity}}</text>
+    <text class="switch-city">切换城市</text>
+  </view>
+
+  <!-- 上下两部分各占一半的 Flex 布局 -->
+  <view class="flex-container">
+    <!-- 上部分区域 -->
+    <view class="top-section">
+      <view class="button" bindtap="continueSchedule">
+        <image src="../../asset/map.png" class="button-icon"></image>
+        <text>继续我的行程</text>
+      </view>
+      <view class="button" bindtap="createNewSchedule">
+        <image src="../../asset/new.png" class="button-icon"></image>
+        <text>新建行程</text>
+      </view>
+      <view class="button" bindtap="showFavorites">
+        <image src="../../asset/file.png" class="button-icon"></image>
+        <text>收藏夹</text>
+      </view>
+    </view>
+
+    <!-- 下半部分区域 -->
+    <scroll-view class="scroll-view" scroll-y="true">
+      <view class="bottom-section">
+        <view class="section-title">热门景点推荐</view>
+        <view class="spot-list">
+          <view class="spot-item" wx:for="{{hotSpots}}" wx:key="index" bindtap="viewSpotDetail">
+            <image src="{{item.image}}" class="spot-image"></image>
+            <view class="spot-name">{{item.name}}</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

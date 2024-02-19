@@ -1,0 +1,55 @@
+{
+	"pages": [
+    
+    "pages/personal/personal",
+    "pages/map/map",
+		"pages/index/index", 
+    "pages/team/team",
+    "pages/schedule/schedule",
+    "pages/profile/profile"
+    
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置展示"
+		}
+	},
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "徜徉行旅",
+		"navigationBarTextStyle": "black"
+	},
+	"style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人出行",
+        "iconPath": "/asset/personal.png",
+        "selectedIconPath": "/asset/selected.png"
+      },
+      {
+        "pagePath": "pages/team/team",
+        "text": "团队出行",
+        "iconPath": "/asset/team.png",
+        "selectedIconPath": "/asset/selected.png"
+      },
+      {
+        "pagePath": "pages/schedule/schedule",
+        "text": "我的行程",
+        "iconPath": "/asset/schedule.png",
+        "selectedIconPath": "/asset/selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人主页",
+        "iconPath": "/asset/profile.png",
+        "selectedIconPath": "/asset/selected.png"
+      }
+    ]
+  }
+}
+
+
